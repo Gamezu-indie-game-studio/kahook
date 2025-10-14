@@ -153,27 +153,27 @@ closeButton.addEventListener('mouseenter', () => closeButton.style.backgroundCol
 closeButton.addEventListener('mouseleave', () => closeButton.style.backgroundColor = '#cc0000');
 handle.appendChild(closeButton);
 
-const minimizeButton = document.createElement('div');
-minimizeButton.className = 'minimize-button';
-minimizeButton.textContent = '─';
-minimizeButton.style.color = 'white';
-minimizeButton.style.position = 'absolute';
-minimizeButton.style.top = '0';
-minimizeButton.style.right = '50px';
-minimizeButton.style.width = '50px';
-minimizeButton.style.height = '50px';
-minimizeButton.style.backgroundColor = '#555555';
-minimizeButton.style.borderRadius = '0';
-minimizeButton.style.display = 'flex';
-minimizeButton.style.justifyContent = 'center';
-minimizeButton.style.alignItems = 'center';
-minimizeButton.style.cursor = 'pointer';
-minimizeButton.style.transition = 'background-color 0.1s';
-minimizeButton.style.fontSize = '20px';
-minimizeButton.style.fontWeight = 'bold';
-minimizeButton.addEventListener('mouseenter', () => minimizeButton.style.backgroundColor = '#777777');
-minimizeButton.addEventListener('mouseleave', () => minimizeButton.style.backgroundColor = '#555555');
-handle.appendChild(minimizeButton);
+const minimizeButton = document.createElement('div'); // bugged minimize btn, uncomment if wanna try to fix
+// minimizeButton.className = 'minimize-button';
+// minimizeButton.textContent = '─';
+// minimizeButton.style.color = 'white';
+// minimizeButton.style.position = 'absolute';
+// minimizeButton.style.top = '0';
+// minimizeButton.style.right = '50px';
+// minimizeButton.style.width = '50px';
+//minimizeButton.style.height = '50px';
+//minimizeButton.style.backgroundColor = '#555555';
+//minimizeButton.style.borderRadius = '0';
+//minimizeButton.style.display = 'flex';
+//minimizeButton.style.justifyContent = 'center';
+//minimizeButton.style.alignItems = 'center';
+//minimizeButton.style.cursor = 'pointer';
+//minimizeButton.style.transition = 'background-color 0.1s';
+//minimizeButton.style.fontSize = '20px';
+//minimizeButton.style.fontWeight = 'bold';
+//minimizeButton.addEventListener('mouseenter', () => minimizeButton.style.backgroundColor = '#777777');
+//minimizeButton.addEventListener('mouseleave', () => minimizeButton.style.backgroundColor = '#555555');
+//handle.appendChild(minimizeButton);
 
 // Killswitch indicator
 // const killswitchIndicator = document.createElement('div');
